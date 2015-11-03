@@ -53,7 +53,7 @@ describe('Mode Score', function() {
     expect(grader.modeScore([54, 75, 98, 75, 86, 75, 93])).toEqual([75]);
   });
 
-  it("returns the more than one mode from an array of numbers", function(){
+  it("returns more than one mode from an array of numbers", function(){
     expect(grader.modeScore([82, 92, 75, 91, 92, 92, 89, 95, 95, 95, 100, 86])).toEqual([92, 95]);
     expect(grader.modeScore([52, 52, 98, 98, 79, 86, 79, 93])).toEqual([52, 79, 98]);
   });
